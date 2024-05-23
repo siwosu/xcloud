@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/icon.ico</file>
+        <file>resources/settingsBlack.png</file>
+        <file>resources/settingsWhite.png</file>
+        <file>resources/infoBlack.png</file>
+        <file>resources/infoWhite.png</file>
+        <file>resources/userBlack.png</file>
+        <file>resources/userWhite.png</file>
+        <file>resources/homeBlack.png</file>
+        <file>resources/homeWhite.png</file>
+        <file>resources/MultiroundPro.otf</file>
+        <file>resources/eye.png</file>
+        <file>resources/eye_hover.png</file>
+        <file>resources/config.txt</file>
+        <file>resources/githubBlack.png</file>
+        <file>resources/githubWhite.png</file>
+        <file>resources/telegramBlack.png</file>
+        <file>resources/telegramWhite.png</file>
+        <file>resources/vkBlack.png</file>
+        <file>resources/vkWhite.png</file>
+        <file>resources/curl/curl.h</file>
+        <file>resources/curl/curlver.h</file>
+        <file>resources/curl/easy.h</file>
+        <file>resources/curl/header.h</file>
+        <file>resources/curl/mprintf.h</file>
+        <file>resources/curl/multi.h</file>
+        <file>resources/curl/options.h</file>
+        <file>resources/curl/stdcheaders.h</file>
+        <file>resources/curl/system.h</file>
+        <file>resources/curl/typecheck-gcc.h</file>
+        <file>resources/curl/urlapi.h</file>
+        <file>resources/curl/websockets.h</file>
+        <file>resources/curl/cacert.pem</file>
+        <file>resources/profile_photo.png</file>
+    </qresource>
+</RCC>

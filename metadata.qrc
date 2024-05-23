@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/metadata">
+        <file>metadata.qrc</file>
+    </qresource>
+</RCC>

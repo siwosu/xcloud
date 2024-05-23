@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Program</class>
+ <widget class="QMainWindow" name="Program">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>xCloud</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/resources/icon.ico</normaloff>:/resources/icon.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget_program">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>720</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>720</width>
+      <height>500</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>720</width>
+      <height>500</height>
+     </size>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page_1_h">
+     <widget class="QPushButton" name="pushButton_upload">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>440</y>
+        <width>251</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Загрузить</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="listWidget_files">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>721</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>721</width>
+        <height>371</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_download">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>390</y>
+        <width>251</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Скачать</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_delete">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>390</y>
+        <width>251</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2_u">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>307</x>
+        <y>140</y>
+        <width>129</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:700;&quot;&gt;Anonymous&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_user_reset">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>300</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Восстановить пароль</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3_s"/>
+    <widget class="QWidget" name="page_4_i">
+     <widget class="QLabel" name="label_info">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>691</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11px; font-weight:700; color:#ffffff;&quot;&gt;Добро пожаловать в xCloud! &lt;br/&gt;&lt;br/&gt;xCloud - инновационный сервис облачного хранения файлов и данных. Основные особенности xCloud: &lt;br/&gt;&lt;br/&gt;1. Облачное хранение: Сохраняйте файлы в безопасном облаке и получайте к ним доступ в любое время. &lt;br/&gt;&lt;br/&gt;2. Синхронизация данных: Автоматическая синхронизация файлов между устройствами. &lt;br/&gt;&lt;br/&gt;3. Безопасность и конфиденциальность: Мы обеспечиваем высокую защиту данных и конфиденциальность информации. &lt;br/&gt;&lt;br/&gt;4. Делитесь файлами: Легко делитесь файлами и папками с другими пользователями. &lt;br/&gt;&lt;br/&gt;Спасибо за выбор xCloud! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11px; font-weight:700; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:11px; font-weight:700; font-style:italic; color:#ffffff;&quot;&gt;Ниже ссылки на соц.сети:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>450</y>
+        <width>601</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>100</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_telegram">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_github">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_vk">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>100</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_inf">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>20</y>
+        <width>132</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#ffffff;&quot;&gt;Информация&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_left">
+    <property name="geometry">
+     <rect>
+      <x>-50</x>
+      <y>-20</y>
+      <width>131</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_home">
+     <property name="geometry">
+      <rect>
+       <x>76</x>
+       <y>96</y>
+       <width>41</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_user">
+     <property name="geometry">
+      <rect>
+       <x>76</x>
+       <y>202</y>
+       <width>41</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_info">
+     <property name="geometry">
+      <rect>
+       <x>76</x>
+       <y>414</y>
+       <width>41</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_settings">
+     <property name="geometry">
+      <rect>
+       <x>76</x>
+       <y>308</y>
+       <width>41</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
