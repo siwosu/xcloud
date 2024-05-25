@@ -416,7 +416,7 @@ void Program::on_pushButton_telegram_clicked()
 void Program::getFilesListFromDropbox()
 {
     QString apiUrl = "https://api.dropboxapi.com/2/files/list_folder";
-    QString accessToken = "sl.B1sj-Vbg-khiD4g8cdv0fHrv5zc3SiXm-0LKXoz7jEMJrmWhmJvTgPo97YmfpPsXvMaGHcmiQtn-_AS9JQXRUDtyyLXGQZl6VtJ5YTnGndzocm_KxRZPa4QKIuf2RyrTEZT7S5MVvLh2JbrPLlBN"; // Замените на ваш access token
+    QString accessToken = "cmiQtn-_AS9JQXRUDtyyLXGQZl6VtJ5YTnGndzocm_KxRZPa4QKIuf2RyrTEZT7S5MVvLh2JbrPLlBN"; // Замените на ваш access token
 
     QNetworkRequest request;
     request.setUrl(QUrl(apiUrl));
@@ -506,7 +506,7 @@ void Program::on_pushButton_upload_clicked()
 
 bool Program::uploadFileToDropbox(const QString &localFilePath, const QString &dropboxFilePath)
 {
-    std::string accessToken = "sl.B1sj-Vbg-khiD4g8cdv0fHrv5zc3SiXm-0LKXoz7jEMJrmWhmJvTgPo97YmfpPsXvMaGHcmiQtn-_AS9JQXRUDtyyLXGQZl6VtJ5YTnGndzocm_KxRZPa4QKIuf2RyrTEZT7S5MVvLh2JbrPLlBN"; // Замените на ваш access token
+    std::string accessToken = "fHrv5zc3SiXm-0LKXoz7jEMJrmWhmJvTgPo97YmfpPsXvMaGHcmiQtn-_AS9JQXRUDtyyLXGQZl6VtJ5YTnGndzocm_KxRZPa4QKIuf2RyrTEZT7S5MVvLh2JbrPLlBN"; // Замените на ваш access token
     CURL *curl;
     CURLcode res = CURLE_OK;
     curl_global_init(CURL_GLOBAL_DEFAULT);
@@ -628,7 +628,7 @@ bool Program::downloadFileFromDropbox(const QString &dropboxFilePath, const QStr
 
 bool Program::deleteFileFromDropbox(const QString &dropboxFilePath)
 {
-    QString accessToken = "sl.B1sj-Vbg-khiD4g8cdv0fHrv5zc3SiXm-0LKXoz7jEMJrmWhmJvTgPo97YmfpPsXvMaGHcmiQtn-_AS9JQXRUDtyyLXGQZl6VtJ5YTnGndzocm_KxRZPa4QKIuf2RyrTEZT7S5MVvLh2JbrPLlBN"; // Замените на ваш access token
+    QString accessToken = "-0LKXoz7jEMJrmWhmJvTgPo97YmfpPsXvMaGHcmiQtn-_AS9JQXRUDtyyLXGQZl6VtJ5YTnGndzocm_KxRZPa4QKIuf2RyrTEZT7S5MVvLh2JbrPLlBN"; // Замените на ваш access token
 
     QString apiUrl = "https://api.dropboxapi.com/2/files/delete_v2";
     QNetworkRequest request(apiUrl);
