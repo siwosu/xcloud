@@ -77,11 +77,11 @@ registration::registration(QWidget *parent)
     // Устанавливаем соединение с базой данных, если оно еще не установлено
     if (!QSqlDatabase::contains("qt_sql_default_connection")) {
         db = QSqlDatabase::addDatabase("QMYSQL");
-        db.setHostName("147.78.65.249"); // host name
+        db.setHostName(""); // host name
         db.setPort(3306); // port
-        db.setDatabaseName("cs_test"); // name db
-        db.setUserName("Klimenko"); // login
-        db.setPassword("DCIfmTJFyy"); // password
+        db.setDatabaseName(""); // name db
+        db.setUserName(""); // login
+        db.setPassword(""); // password
 
         // Проверяем, удалось ли открыть соединение с базой данных
         if (!db.open()) {
